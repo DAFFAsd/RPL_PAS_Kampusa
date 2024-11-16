@@ -1,0 +1,72 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  overflow: hidden;
+  background-color: var(--white);
+}
+
+.header {
+  height: 50px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 16px;
+  position: relative;
+}
+
+.hamburger {
+  min-width: 20px;
+  max-width: 20px;
+  height: 20px;
+  position:relative;
+}
+
+.arrow {
+  position: relative;
+  height: 10px;
+  width: 10px;
+  margin-left: 10px;
+  transform: translateY(1px);
+}
+
+.heading {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  /* transform: translateY(-px); */
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  position: "relative",
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.3);
+  padding: 2% 0 2% 0;
+  position: relative;
+  z-index: 100;
+}
+
+.headerIconContainer{
+  min-width: 16px;
+  max-width: 16px;
+  height: 16px;
+  position:relative;
+}
+
+.addAgendaIcon {
+  min-width: 20px;
+  max-width: 20px;
+  height: 25px;
+  position: relative;
+}

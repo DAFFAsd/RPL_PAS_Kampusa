@@ -1,0 +1,21 @@
+.container {
+  height: 50px;
+  width: 100%;
+  padding: 3px 8px;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 0px 5px rgb(0,0,0,0.2);
+  z-index: 100;
+  
+}
+
+.navigationButtonIcon {
+  min-width: 18px;
+  max-width: 18px;
+  height: 18px;
+  position: relative;
+}
